@@ -63,10 +63,10 @@
 <div class="sort-by-select">
   <select name="categorie" style="width:250px;" class="chosen-select-no-single">
       <option value="">Toute Categorie</option>
-    <?php foreach ($categorie as $value) {
+    <?php foreach ($categoria as $value) {
 
     ?>
-      <option value="<?php echo $value['categorie'] ?>"><?php echo $value['categorie'] ?></option>
+      <option value="<?php echo $value['Nom'] ?>"><?php echo $value['Nom'] ?></option>
   <?php } ?>
   </select>
 </div>
