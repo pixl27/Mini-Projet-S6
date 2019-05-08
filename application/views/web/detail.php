@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-header('AddType video/ogg .ogv');
-header('AddType video/ogg .ogg');
-header('AddType video/mp4 .mp4');
-header('AddType video/webm .webm');
-?>
+
 <!-- Mirrored from cariera.co/templates/movify/movie-detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Apr 2019 05:18:39 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>

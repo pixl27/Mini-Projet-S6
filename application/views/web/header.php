@@ -86,7 +86,7 @@ header('AddType video/webm .webm');
 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">categorie</a>
 
 <ul class="dropdown-menu">
-<?php foreach ($categoria as $value) {
+<?php foreach ($categorie as $value) {
   // code...
 ?>
 <li>
