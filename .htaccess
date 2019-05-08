@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^Video$ index.php?c=VideoController&m=lister [L]
+RewriteRule ^Acceuil$ index.php?c=Acceuil&m=connexion [L]
+RewriteRule ^DetailVideo-([0-9]+)$   index.php?c=VideoController&m=listerDetailVideo&idvideo=$1 [L]
+RewriteRule ^Categorie-([^/]+)$   index.php?c=VideoController&m=listerCategorie&categorie=$1 [L]
+RewriteRule ^Rechercher$   index.php?c=VideoController&m=gotosearch [L]
+RewriteRule ^RechercheAvance$   index.php?c=VideoController&m=recherche [L]
+RewriteRule ^Admin$   index.php?c=VideoController&m=read [L]
+RewriteRule ^AddRecord$   index.php?c=VideoController&m=gotoBackOffice [L]
+RewriteRule ^Inserer$   index.php?c=VideoController&m=updateImageChef [L]
+RewriteRule ^Modifier$   index.php?c=VideoController&m=gotoFormUpdate [L]
+RewriteRule ^ModifierAction$  index.php?c=VideoController&m=update[L]
+RewriteRule ^Supprimer$ index.php?c=VideoController&m=delete [L]
+RewriteRule ^Signup$    index.php?c=Acceuil&m=inscription [L]

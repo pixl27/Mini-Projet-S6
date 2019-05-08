@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listefacture>
+  <facture>
+    <Date>2018-12-11</Date>
+    <Etat>En Cours de paiement</Etat>
+    <Id>10</Id>
+    <IdClient>1</IdClient>
+    <MontantPaye>20</MontantPaye>
+    <MontantTotal>32</MontantTotal>
+    <Remise>10</Remise>
+    <MontantRemise>29</MontantRemise>
+  </facture>
+  <facture>
+    <Date>2018-12-11</Date>
+    <Etat>Creer</Etat>
+    <Id>11</Id>
+    <IdClient>1</IdClient>
+    <MontantPaye>0</MontantPaye>
+    <MontantTotal>16</MontantTotal>
+    <Remise>50</Remise>
+    <MontantRemise>8</MontantRemise>
+  </facture>
+  <facture>
+    <Date>2018-12-11</Date>
+    <Etat>Creer</Etat>
+    <Id>12</Id>
+    <IdClient>1</IdClient>
+    <MontantPaye>0</MontantPaye>
+    <MontantTotal>48</MontantTotal>
+    <Remise>0</Remise>
+    <MontantRemise>48</MontantRemise>
+  </facture>
+  <facture>
+    <Date>2018-12-20</Date>
+    <Etat>Creer</Etat>
+    <Id>13</Id>
+    <IdClient>1</IdClient>
+    <MontantPaye>0</MontantPaye>
+    <MontantTotal>187</MontantTotal>
+    <Remise>0</Remise>
+    <MontantRemise>187</MontantRemise>
+  </facture>
+  <facture>
+    <Date>2019-01-10</Date>
+    <Etat>Creer</Etat>
+    <Id>14</Id>
+    <IdClient>1</IdClient>
+    <MontantPaye>0</MontantPaye>
+    <MontantTotal>156</MontantTotal>
+    <Remise>0</Remise>
+    <MontantRemise>156</MontantRemise>
+  </facture>
+</listefacture>
